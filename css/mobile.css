@@ -1,0 +1,120 @@
+/* Mobile */
+@media (max-width: 500px) {
+  /* Card form and Chanel picture */
+
+  .container {
+    max-width: 30rem;
+    margin: 1rem auto;
+  }
+
+  /* Card form and Chanel picture */
+
+.card-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  background: var(--White);
+  /* padding-bottom: 2rem; */
+  margin: 0 1rem;
+  /* border-radius: 0.5rem; */
+}
+
+#chanel-img {
+  background: url("../images/image-product-mobile.jpg") no-repeat center center/cover;
+  height: 50vh;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-left-radius: 0;
+}
+
+/* Description area box */
+
+.description h4 {
+  font-family: var(--Font-Montserrat);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--Darkgrayishblue-color);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.description h1 {
+  font-family: var(--Font-Fraunces);
+  font-size: 2.4rem;
+  color: var(--Verydarkblue-color);;
+  line-height: 1.1;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.description p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--Darkgrayishblue-color);
+  line-height: 1.8;
+  width: 82%;
+  margin-top: 1rem;
+}
+
+}
+
+@media (min-width: 501px) and (max-width: 800px) {
+  /* Card form and Chanel picture */
+
+  .container {
+    max-width: 30rem;
+    margin: 1rem auto;
+  }
+
+  /* Card form and Chanel picture */
+
+.card-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  background: var(--White);
+  /* padding-bottom: 2rem; */
+  margin: 0 1rem;
+  /* border-radius: 0.5rem; */
+}
+
+#chanel-img {
+  background: url("../images/image-product-mobile.jpg") no-repeat center center/cover;
+  height: 50vh;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-left-radius: 0;
+}
+
+/* Description area box */
+
+.description h4 {
+  font-family: var(--Font-Montserrat);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--Darkgrayishblue-color);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.description h1 {
+  font-family: var(--Font-Fraunces);
+  font-size: 2.4rem;
+  color: var(--Verydarkblue-color);;
+  line-height: 1.1;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.description p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--Darkgrayishblue-color);
+  line-height: 1.8;
+  width: 82%;
+  margin-top: 1rem;
+}
+
+}
